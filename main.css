@@ -1,0 +1,144 @@
+body{
+    background-image:url(images/background.png) ;
+}
+#newGame{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    /* border: crimson solid 2px; */
+    width: 20vw;
+    margin-inline: 40%;
+    background-color: rgba(94, 247, 247, 0.7);
+    margin-top: 38%;
+    transition: 0.5s;
+    align-content: flex-end;
+}
+#newGame:hover{
+    filter:drop-shadow(0em 0em 0.2em white);
+    cursor: pointer;
+}
+#newGame2{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    /* border: crimson solid 2px; */
+    width: 20vw;
+    margin-inline: 40%;
+    background-color: rgba(242, 43, 33, 0.7);
+    margin-top: 1%;
+    transition: 0.5s;
+    align-content: flex-end;
+}
+#newGame2:hover{
+    filter:drop-shadow(0em 0em 0.2em white);
+    cursor: pointer;
+}
+#game{
+    display: none;
+    flex-direction: row;
+}
+#diceImg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22%;
+    /* margin-inline: 44.5%; */
+    margin-top: 5%;
+    filter:drop-shadow(0em 0em 0.2em white);
+    opacity: 0.7;
+}
+#holdButton{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    /* border: crimson solid 2px; */
+    width: 20vw;
+    margin-inline: 40%;
+    background-color: rgba(94, 247, 247, 0.7);
+    margin-bottom: 0.5%;
+    transition: 0.5s;
+}
+#holdButton:hover{
+    filter:drop-shadow(0em 0em 0.2em white);
+    cursor: pointer;
+}
+#rollButton{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    /* border: crimson solid 2px; */
+    width: 20vw;
+    margin-inline: 40%;
+    background-color: rgba(94, 247, 247, 0.7);
+    margin-bottom: 0.5%;
+    transition: 0.5s;
+}
+#rollButton:hover{
+    filter:drop-shadow(0em 0em 0.2em white);
+    cursor: pointer;
+}
+#players{
+    display: flex;
+    flex-direction: column;
+}
+#playerOne{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    align-items: center;
+    align-content: center;
+    /* border: crimson solid 2px; */
+    height: 10vh;
+    flex-direction: row;
+    width: 20vw;
+    flex-wrap: wrap;
+    margin-inline: 40%;
+    background-color: rgba(94, 247, 247, 0.7);
+    filter:drop-shadow(0em 0em 0.2em white);
+}
+#playerTwo{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    align-items: center;
+    align-content: center;
+    /* border: crimson solid 2px; */
+    height: 10vh;
+    flex-direction: row;
+    width: 20vw;
+    flex-wrap: wrap;
+    margin-inline: 40%;
+    background-color: rgba(242, 43, 33, 0.7);
+    /* filter:drop-shadow(0em 0em 0.2em white); */
+}
+
+#scoreBox{
+    /* border: crimson solid 2px; */
+    margin-inline: 1%;
+}
+#score{
+    /* border: crimson solid 2px; */
+}
+
+
+.buttonAnimation{
+    animation-duration: 0.3s;
+    animation-name: buttonAnimation;
+}
+
+@keyframes buttonAnimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
